@@ -6,4 +6,5 @@ mkdir $HOME/gopath
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/gopath
 go get -u github.com/vmware/govmomi/vcsim
+$HOME/gopath/bin/vcsim -l :8989
 ```
